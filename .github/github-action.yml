@@ -1,6 +1,0 @@
-name: github-action
-
-on: [push]
- - name: build
-   run : docker build -t ${{ secrets.DOCKERHUB_USERNAME }}getting-started:latest
-   
